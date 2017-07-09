@@ -5,9 +5,9 @@ public class Student extends Person {
 
     private String status;
 
-    public Student(String newStatus) {
-        super();
-        status = newStatus;
+    public Student(String name, String address, String emailAddress, String phoneNumber, Date birthDate, String status) {
+        super(name, address, emailAddress, phoneNumber, birthDate);
+        status = status;
     }
 
     public String getStatus() {
