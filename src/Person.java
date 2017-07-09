@@ -9,6 +9,14 @@ public class Person {
     String phoneNumber;
     Date birthDate;
 
+    public Person(String name, String address, String emailAddress, String phoneNumber, Date birthDate) {
+        this.name = name;
+        this.address = address;
+        this.emailAddress = emailAddress;
+        this.phoneNumber = phoneNumber;
+        this.birthDate = birthDate;
+    }
+
     public void setName(String newName) {
         name = newName;
     }
