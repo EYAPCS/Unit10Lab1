@@ -57,4 +57,10 @@ public class Person {
         return birthDate;
     }
 
+    public String toString() {
+
+        return "Person " + getName();
+
+    }
+
 }

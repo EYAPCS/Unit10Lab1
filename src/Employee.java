@@ -29,4 +29,11 @@ public class Employee extends Person{
     public void setHireDate(Date hireDate) {
         this.hireDate = hireDate;
     }
+
+    public String toString() {
+
+        return "Employee " + getName();
+
+    }
+
 }

@@ -19,4 +19,11 @@ public class Staff extends Employee {
     public void setJobTitle(String jobTitle) {
         this.jobTitle = jobTitle;
     }
+
+    public String toString() {
+
+        return "Staff " + getName();
+
+    }
+
 }

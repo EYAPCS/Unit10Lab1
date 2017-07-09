@@ -17,4 +17,11 @@ public class Student extends Person {
     public void setStatus(String newStatus) {
         status = newStatus;
     }
+
+    public String toString() {
+
+        return "Student " + getName();
+
+    }
+
 }

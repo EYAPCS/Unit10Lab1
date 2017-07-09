@@ -30,4 +30,11 @@ public class Faculty extends Employee {
         this.rank = rank;
     }
 
+    public String toString() {
+
+        return "Faculty " + getName();
+
+    }
+
+
 }
