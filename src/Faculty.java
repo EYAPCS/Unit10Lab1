@@ -1,6 +1,12 @@
 /**
  * Created by emma on 7/9/17.
  */
+
+/**
+ * The Faculty class has String officeHours and String rank. It is a subclass of Employee
+ * @author Emma Yang
+ */
+
 public class Faculty extends Employee {
 
     private String officeHours;
@@ -29,12 +35,4 @@ public class Faculty extends Employee {
     public void setRank(String rank) {
         this.rank = rank;
     }
-
-    public String toString() {
-
-        return "Faculty " + getName();
-
-    }
-
-
 }

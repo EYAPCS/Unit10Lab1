@@ -1,6 +1,12 @@
 /**
  * Created by emma on 7/9/17.
  */
+
+/**
+ * Staff class is a subclass of Employee, and has a String jobTitle
+ * @author Emma Yang
+ */
+
 public class Staff extends Employee {
 
     private String jobTitle;
@@ -18,12 +24,6 @@ public class Staff extends Employee {
 
     public void setJobTitle(String jobTitle) {
         this.jobTitle = jobTitle;
-    }
-
-    public String toString() {
-
-        return "Staff " + getName();
-
     }
 
 }

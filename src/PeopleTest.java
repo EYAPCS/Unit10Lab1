@@ -1,6 +1,12 @@
 /**
  * Created by emma on 7/9/17.
  */
+
+/**
+ * PeopleTest creates an instance of each class and executes their toString method.
+ * @author Emma Yang
+ */
+
 public class PeopleTest {
 
     public static void main(String[] args) {

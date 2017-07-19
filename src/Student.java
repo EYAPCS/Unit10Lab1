@@ -1,6 +1,12 @@
 /**
  * Created by emma on 7/8/17.
  */
+
+/**
+ * Student class is a subclass of Person and has a String status
+ * @author Emma Yang
+ */
+
 public class Student extends Person {
 
     private String status;
@@ -16,12 +22,6 @@ public class Student extends Person {
 
     public void setStatus(String newStatus) {
         status = newStatus;
-    }
-
-    public String toString() {
-
-        return "Student " + getName();
-
     }
 
 }

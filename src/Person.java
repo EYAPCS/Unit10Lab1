@@ -1,6 +1,13 @@
 /**
  * Created by emma on 7/8/17.
  */
+
+/**
+ * The Person class has a String name, String address, String emailAddress, String phoneNumber, and a Date birthDate.
+ * It is the superclass of the Student and Employee classes
+ * @author Emma Yang
+ */
+
 public class Person {
 
     String name;
@@ -57,9 +64,15 @@ public class Person {
         return birthDate;
     }
 
+    /**
+     * The toString method overrides the regular toString method and displays the class name and the name of the person.
+     * All subclasses of Person inherit this method
+     * @return the class name and person name
+     */
+
     public String toString() {
 
-        return "Person " + getName();
+        return this.getClass() + " " + getName();
 
     }
 

@@ -1,6 +1,12 @@
 /**
  * Created by emma on 7/8/17.
  */
+
+/**
+ * Employee class is a subclass of the Person class. It has a double salary and a Date hireDate
+ * @author Emma Yang
+ */
+
 public class Employee extends Person{
 
     double salary;
@@ -28,12 +34,6 @@ public class Employee extends Person{
 
     public void setHireDate(Date hireDate) {
         this.hireDate = hireDate;
-    }
-
-    public String toString() {
-
-        return "Employee " + getName();
-
     }
 
 }

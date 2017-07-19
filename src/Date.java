@@ -1,6 +1,12 @@
 /**
  * Created by emma on 7/8/17.
  */
+
+/**
+ * Date class has an integer day, month and year.
+ * @author Emma Yang
+ */
+
 public class Date {
 
     private int day;
